@@ -1,0 +1,17 @@
+#un semestre con 3 cortes
+print("/"*30)
+nota_quiz_semestre1 = float(input("quiz semestre 1: "))
+nota_quiz_semestre2 = float(input("quiz semestre 2: "))
+nota_quiz_semestre3 = float(input("quiz semestre 3: "))
+nota_trabajo_semestre1 = float(input("trabajo semestre 1: "))
+nota_trabajo_semestre2 = float(input("trabajo semestre 2: "))
+nota_trabajo_semestre3 = float(input("trabajo semestre 3: "))
+nota_parcial_semestre1 = float(input("parcial semestre 1: "))
+nota_parcial_semestre2 = float(input("parcial semestre 2: "))
+nota_parcial_semestre3 = float(input("parcial semestre 3: "))
+codigo = input("codigo: ")
+print("/"*30)
+nota_final = (nota_quiz_semestre1 + nota_quiz_semestre2 + nota_quiz_semestre3)*0.05+(nota_trabajo_semestre1+nota_trabajo_semestre2+nota_trabajo_semestre3)*0.05 + (nota_parcial_semestre1+nota_parcial_semestre2)*0.20+(nota_parcial_semestre3)*0.30
+nota_final = round(nota_final,2)
+print(f"codigo {codigo}, nota final: {nota_final}")
+print("/"*30)
