@@ -1,9 +1,9 @@
-#operations
+
 import math
 16**0.5
-math.sqrt(16)
-math.log(16,2)
-math.cos(0)
+print(math.sqrt(16))
+print(math.log(16,2))
+print(math.cos(0))
 6 + 4*10
 (6+4)*10
 23.0**5
@@ -12,6 +12,17 @@ math.cos(0)
 a = 34
 b = 68
 c = 510
-x= (-b + math.sqrt(b**2 - 4*a*c))/(2*a)
+x= (-b +(b**2 - 4*a*c)**0.5)/(2*a)
+print(x)
 
-math.cos(3.4)**2 + math.sin(3.4)**2
+print(math.cos(3.4)**2 + math.sin(3.4)**2)
+
+print("="*30)
+x = int( input(" enter number x: "))
+y = int(input(" enter number y: "))
+print("="*30)
+power = x**y
+log_2 = math.log2(x)
+print()
+print(f"{x} to the power of {y} equals {power} // x**y = {power}")
+print(f"log base 2 of {x} equals {log_2} // log(x) = {log_2}")
