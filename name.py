@@ -1,0 +1,6 @@
+print("="*12)
+name = input("please enter your name ")
+length_name = len(name)
+print("="*12)
+print(f'Hello {name}! , your name has {length_name} letters')
+print("="*12)
